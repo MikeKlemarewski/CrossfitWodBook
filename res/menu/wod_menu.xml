@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/editWod" android:visible="true" android:enabled="true" android:title="@string/edit_wod"></item>
+<item android:id="@+id/addScore" android:visible="true" android:title="@string/add_score" android:enabled="true"></item>
+<item android:title="Delete WOD" android:id="@+id/deleteWod" android:enabled="true" android:visible="true"></item>
+</menu>

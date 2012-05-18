@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add_score">Add Score</string>
+    <string name="hello">Welcome to the WOD book!</string>
+    <string name="app_name">CrossfitWodBook</string>
+<string name="daily_tracking">Daily Tracking</string>
+<string name="wods">WODS</string>
+<string name="personal_records">Personal Records</string>
+<string name="tracking">This is the tracking screen!</string>
+<string name="girls">The Girls</string>
+<string name="heroes">The Heroes</string>
+<string name="custom">Custom WODS</string>
+<string name="edit_wod">Edit WOD</string>
+<string name="enter_date">Date:</string>
+<string name="enter_score">Score:</string>
+<string name="ok">Ok</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="350dp" android:layout_height="350dp">
+    <EditText android:inputType="text" android:layout_width="150dp" android:layout_height="wrap_content" android:id="@+id/scoreTextField" android:layout_below="@+id/dateTextField" android:layout_alignLeft="@+id/dateTextField" android:layout_marginTop="19dp"></EditText>
+    <TextView android:id="@+id/scoreTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/enter_score" android:layout_alignBaseline="@+id/scoreTextField" android:layout_alignBottom="@+id/scoreTextField" android:layout_alignParentLeft="true" android:layout_marginLeft="16dp"></TextView>
+    <EditText android:inputType="date" android:layout_width="150dp" android:layout_height="wrap_content" android:id="@+id/dateTextField" android:layout_alignBaseline="@+id/dateTextView" android:layout_alignBottom="@+id/dateTextView" android:layout_centerHorizontal="true">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/dateTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_alignParentTop="true" android:layout_alignRight="@+id/scoreTextView" android:layout_marginTop="45dp" android:text="@string/enter_date"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_below="@+id/scoreTextField" android:layout_alignLeft="@+id/dateTextView" android:layout_marginTop="18dp" android:id="@+id/okButton" android:text="@string/ok" android:layout_width="100dp"></Button>
+    <Button android:layout_height="wrap_content" android:layout_alignBaseline="@+id/okButton" android:layout_alignBottom="@+id/okButton" android:layout_alignRight="@+id/scoreTextField" android:id="@+id/cancelButton" android:text="@string/cancel" android:layout_width="100dp"></Button>
+    
+</RelativeLayout>

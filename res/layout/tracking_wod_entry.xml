@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:baselineAligned="true" android:gravity="top">
+<TextView android:layout_height="wrap_content" android:textSize="20dp" android:layout_width="150dp" android:id="@+id/WodTextView" android:text="WOD"></TextView>
+<TextView android:id="@+id/ScoreTextView" android:textSize="20dp" android:layout_height="wrap_content" android:text="Score" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_width="150dp" android:gravity="right"></TextView>
+</RelativeLayout>
